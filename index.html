@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown - Timer</title>
+    <script src="https://kit.fontawesome.com/6a1e6c7ea7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <label for="start">Select Your Birthday :</label>
+
+    <input type="date" id="start" name="trip-start"
+       value="2021-01-01"
+       min="2021-01-01" max="2021-12-31">
+
+    <div class="text-container">
+        <h1>There Are Only</h1>
+    </div>
+    
+    <div class="timebox">
+
+        <!-- DAYS CONTAINER -->
+        <div class="con days-container">
+            <p class="big-text" id="days">0</p>
+            <span>days</span>
+        </div>
+
+        <!-- HOURS CONTAINER -->
+        <div class="con hours-container">
+            <p class="big-text" id="hours">0</p>
+            <span>hours</span>
+        </div>
+
+        <!-- MINS CONTAINER -->
+        <div class="con mins-container">
+            <p class="big-text" id="mins">0</p>
+            <span>mins</span>
+        </div>
+
+        <!-- SECONDS CONTAINER -->
+        <div class="con secs-container">
+            <p class="big-text" id="secs">0</p>
+            <span>seconds</span>
+        </div>
+    </div>
+
+    <div class="c2 text-container">
+        <h1>until your Birthday! <i class="fas fa-birthday-cake"></i>   </h1>
+             
+    </div>
+    
+
+    <!-- FOOTER -->
+    <footer>
+        <p>- Made With <i class="fas fa-heart" style="color: red;"></i> , By Louay Beltifa -</p>
+    </footer>
+</body>
+</html>
